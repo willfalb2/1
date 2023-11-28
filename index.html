@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Home - Inqueery</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/site.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-box">
+      <a href="index.html">
+        <!-- Source: TODO-->
+        <img class="logo" src="images/inq-logo.png" alt="Inqueery Logo">
+      </a>
+      <!-- <h1 class="title">Inqueery</h1> -->
+      <button id="hamburger-button" class="menu-button">
+        <!-- Source: student made in Figma-->
+        <img class="menu-icon" src="images/hamburgermenu.svg" alt="Menu Icon">
+      </button>
+    </div>
+    <div id="nav-menu" class="nav-box">
+      <nav>
+        <ul>
+          <li class="menu-item"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="events.html">Events</a></li>
+          <li class="menu-item"><a href="about.html">About</a></li>
+          <!-- <li class="menu-item"><a href="feedback.html">Feedback</a></li> -->
+          <li class="menu-item"><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Welcome to Inqueery!</h1>
+    <p>
+      Our mission is to foster discussions, build a strong sense
+      of community, and empower LGBTQ+ individuals and their allies.
+    </p>
+  </main>
+
+  <div class="picture-background">
+    <img src="images/background-cornell.jpg" alt="Cornell Background">
+    <div class="overlay-text">
+      We are a diverse and inclusive organization dedicated to providing a safe and supportive space for queer and
+      allied individuals within the Ecology House community.
+    </div>
+  </div>
+
+  <div class="carousel">
+    <div class="arrow-box">
+    <button class="left-carousel-button" id="carousel-button-left">
+      <!-- Source: https://www.svgrepo.com/svg/3521/arrow-left -->
+      <img class="carousel-icon" src="images/arrow-left.svg" alt="Left Arrow">
+    </button>
+  </div>
+
+    <div id="carousel-figures">
+
+      <figure id="carousel-figure1">
+        <!-- Image Source:  -->
+        <img class="rounded-corners" src="images/comingout.png" alt="Coming Out Infographic" width="640" height="640">
+        <figcaption>Infographic about Coming Out</figcaption>
+      </figure>
+
+      <figure id="carousel-figure2">
+        <!-- Image Source:  -->
+        <img class="rounded-corners" src="images/bierasure.png" alt="Bierasure" width="640" height="640">
+        <figcaption>Bierasure</figcaption>
+      </figure>
+
+      <figure id="carousel-figure3">
+        <!-- Image Source:  -->
+        <img class="rounded-corners" src="images/queer-movies.png" alt="Queer Movies" width="640" height="640">
+        <figcaption>Queer Movies</figcaption>
+      </figure>
+
+    </div>
+    <div class="arrow-box">
+    <button class="right-carousel-button" id="carousel-button-right">
+      <!-- Source: https://www.svgrepo.com/svg/3521/arrow-left -->
+      <img class="carousel-icon" src="images/arrow-right.svg" alt="Right Arrow">
+    </button>
+  </div>
+
+  </div>
+
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/carousel.js"></script>
+
+</body>
+
+</html>
